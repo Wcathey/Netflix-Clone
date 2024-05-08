@@ -1,0 +1,172 @@
+* {
+    font-family: Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/4d7bb476-6d8b-4c49-a8c3-7739fddd135c/53529d7d-a14c-4416-8478-fd7d29361c0d/US-en-20240429-popsignuptwoweeks-perspective_alpha_website_small.jpg);
+    background-size: 125%;
+    background-repeat: no-repeat;
+    background-color: black;
+
+
+
+}
+.container {
+    background-color: rgba(0,0,0,.5);
+    height: 600px;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.logo svg {
+    fill: rgb(229, 9, 20, 1);
+    width: 100px;
+    padding: 20px 30px;
+
+}
+
+.settings {
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    align-items: center;
+}
+.language button {
+    background-color: black;
+    border-radius: 5px;
+    padding: 5px;
+
+
+}
+.language button svg {
+    color: white;
+
+}
+
+.language select{
+    border: none;
+    width: fit-content;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+
+
+}
+
+.login a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.login {
+    padding: 5px 10px;
+    border: 1px solid black;
+
+    background-color: rgb(229, 9, 20, 1);;
+
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.main-card p {
+    color:white;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+}
+
+
+.register {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main-card input {
+
+    padding: 20px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 5px;
+
+
+}
+
+.main-card button {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 15px;
+    width: 200px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(229, 9, 20, 1);
+    color: white;
+    font-size: 25px;
+}
+
+.main-card button i {
+
+font-weight: lighter;
+
+font-size: 30px;
+
+
+
+
+}
+
+.learn-more {
+
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(14, 27, 79);
+background: radial-gradient(51.39% 511.66% at 47.68% 307.91%,
+#ff9900 0%, #e50914 10.27%, #0e1b4f 80.44%, #000413 100%);
+border-radius: 4px;
+color: white;
+box-shadow: 0px -8px 25px rgba(0,0,0,0.5);
+padding: 22px;
+width: 80%;
+margin: auto;
+
+}
+
+.learn-more svg {
+
+}
+
+.add-content {
+    display: grid;
+    gap:10px;
+    justify-content: space-between;
+   padding-left: 20px;
+
+}
+.add-content a {
+    font-weight: bold;
+}
+
+.lm {
+    display: flex;
+    align-items: center;
+}
+.lm i{
+color: blue;
+font-size: 35px;
+
+
+}
